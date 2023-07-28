@@ -1,0 +1,69 @@
+html {
+    font-family: Josefin sans,sans-serif;
+    font-size: 16px;
+    box-sizing: border-box;
+    color: var(--lightcolor);
+}
+.home {
+    width: 100%;
+    height: 100vh;
+    background-color: var(--bgcolor-1);
+}
+span {
+    color: var(--primarycolor);
+}
+h2 {
+    font-size: 5rem;
+    letter-spacing: 0,12rem;
+    cursor: pointer;
+}
+nav {
+    background-color: brown;
+    padding-top: 1,5rem;
+    padding-left: var(--padding);
+    padding-right: var(--padding);
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+ }
+ nav ul li {
+    
+    list-style-type: none;
+    display: inline-block;
+    margin: 0,8rem 1,5rem;
+    font-size: 3rem;
+    
+    
+ }
+ nav ul li a {
+    color: aliceblue;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0,4s;
+    justify-content: space-between;
+ }
+ p {
+    font-size: 3rem;
+    letter-spacing:0,5s ;
+ }
+ .container-image {
+    width: 45%;
+    height: 90%;
+    position: relative;
+    background-color: blue;
+    align-self: flex-end;
+ }
+ .container-image img {
+    position: absolute;
+    bottom: 0;
+    height: 100%;
+    left: 50%;
+    transform: translateX(50%);
+ }
+ h6 {
+    font-size: 4rem;
+    letter-spacing: 0,12;
+    background-color: blueviolet;
+    text-align: center;
+ }
+
